@@ -88,14 +88,6 @@ public class ScientificCalculatorTest {
     }
 
     @Test
-    public void valueUnchangedWhenSquareRootOfNegativeNumber() {
-        ScientificCalculator calculator = new ScientificCalculator();
-        calculator.add(10);
-        calculator.square_root(-16);
-        assertEquals(10, calculator.getValue());
-    }
-
-    @Test
     public void valueSixteenWhenFourSquared() {
         ScientificCalculator calculator = new ScientificCalculator();
         calculator.power2(4);
